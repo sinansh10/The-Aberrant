@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+body{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: 'Noto Serif', serif;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/02af675a-dd3b-47f2-84bf-8b87d6a5496e/dedisp4-fba6e176-04e3-4aed-a1c3-50c64b76be83.jpg/v1/fill/w_1192,h_670,q_70,strp/gojou_satoru_minimalism_wallpaper__ver__1_3__by_rkimx_dedisp4-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzAyYWY2NzVhLWRkM2ItNDdmMi04NGJmLThiODdkNmE1NDk2ZVwvZGVkaXNwNC1mYmE2ZTE3Ni0wNGUzLTRhZWQtYTFjMy01MGM2NGI3NmJlODMuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RkFwbKHMvCogd6R4NHlc3FHquma1qd28SkR-U9YZF2M');
+    background-attachment: fixed;
+}
+
+p, h1, h2, h3, a, ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: antiquewhite;
+    color: #222;
+}
+
+p{
+    font-size: 14px;
+    width: 800px;
+}
+
+.foot{
+    position: fixed;
+    right: 15px;
+    bottom: 8px;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav h1{
+    font-size: 3rem;
+}
+
+nav p, nav a{
+    color: rgb(41, 40, 40);
+    font-weight: 300;
+}
+
+.create-blog form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.create-blog input,
+.create-blog textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+.create-blog label{
+    display: block;
+    margin-top: 24px;
+}
+textarea{
+    height: 160px;
+}
+.create-blog button{
+    margin-top: 20px;
+    margin-left: 180px;
+    background: rgb(15, 68, 99);
+    color: white;
+    padding: 6px;
+    border: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.snippet{
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-top: 15px;
+}
+
+.blogs a{
+    display: block;
+    margin: 40px 0;
+    padding-left: 20px;
+    border-left: 5px solid rgb(88, 163, 173);
+}
+
+.blogs a:hover h3{
+    color:rgb(132, 160, 30);
+}
+
+.header{
+    margin-left: 300px;
+}
+
+.details{
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: rgb(121, 166, 172);
+}
+
+.delete:hover{
+    cursor: pointer;
+    background-color: rgb(241, 77, 55);
+    box-shadow: 1px 2px 3px rgb(0, 0, 0, 0.2);
+}
